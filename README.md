@@ -22,7 +22,7 @@
 
 ## Functions: Numbers 📜
 
-### Checks if the integer passed is plural.
+### **Checks if the integer passed is plural.**
 
 ```dart
 bool isPlural(int number);
@@ -30,7 +30,7 @@ bool isPlural(int number);
 Example: 13 -> true
 ```
 
-### Converts large numbers into smaller representations with letters.
+### **Converts large numbers into smaller representations with letters.**
 
 ```dart
 String largeNumberFormatter(
@@ -43,7 +43,7 @@ String  thousandLetter  =  "k",
 
 Example: 1,812,398 -> "1.8m"
 
-### Adds a postfix to numbers.
+### **Adds a postfix to numbers.**
 
 ```dart
 String numberPostfix(int number);
@@ -53,7 +53,7 @@ Example: 4 -> "4th"
 
 ## Functions: Sizing 📜
 
-### Height fraction of screen, up to a set point.
+### **Height fraction of screen, up to a set point.**
 
 ```dart
 double heightBreakpointFrac(Buildcontext context, double fraction, double lockPoint);
@@ -62,7 +62,7 @@ double heightBreakpointFrac(Buildcontext context, double fraction, double lockPo
 Example: If you set fraction as 1/4, then this will return 1/4 \* screen
 height up to the point that you set as lockPoint.
 
-### Width fraction of screen, up to a set point.
+### **Width fraction of screen, up to a set point.**
 
 ```dart
 double widthBreakpointFrac(Buildcontext context, double fraction, double lockPoint);
@@ -71,7 +71,7 @@ double widthBreakpointFrac(Buildcontext context, double fraction, double lockPoi
 Example: If you set fraction as 1/4, then this will return 1/4 \* screen
 width up to the point that you set as lockPoint.
 
-### Height fraction of screen.
+### **Height fraction of screen.**
 
 ```dart
 double  heightFrac(BuildContext  context, double  fraction);
@@ -80,7 +80,7 @@ double  heightFrac(BuildContext  context, double  fraction);
 Example: If you set fraction as 1/5, then it will return
 1/5 \* screen height.
 
-### Width fraction of screen.
+### **Width fraction of screen.**
 
 ```dart
 double  widthFrac(BuildContext  context, double  fraction);
@@ -89,7 +89,7 @@ double  widthFrac(BuildContext  context, double  fraction);
 Example: If you set fraction as 1/5, then it will return
 1/5 \* screen width.
 
-### Height excluding top or bottom safe area.
+### **Height excluding top or bottom safe area.**
 
 ```dart
 double  heightWithoutSafeArea(BuildContext  context,{bool  withoutTopSafeArea  =  true, bool  withoutBottomSafeArea  =  true});
@@ -98,7 +98,7 @@ double  heightWithoutSafeArea(BuildContext  context,{bool  withoutTopSafeArea  =
 Example: Will return the height of the screen excluding
 either the top or bottom safe area heights.
 
-### Number until limit.
+### **Number until limit.**
 
 ```dart
 double  numberUntilLimit(double number, double limit);
@@ -110,7 +110,7 @@ return 200.
 
 ## Functions: Types 📜
 
-### Checks if value is null.
+### **Checks if value is null.**
 
 ```dart
 bool  isNull(dynamic value);
@@ -119,7 +119,7 @@ bool  isNull(dynamic value);
 Example: If null is passed, this will return true. Otherwise, it
 would return false.
 
-### Checks if value is not null.
+### **Checks if value is not null.**
 
 ```dart
 bool  notNull(dynamic value);
@@ -129,7 +129,7 @@ Example: If "14" is passed, this will return true.
 
 ## Functions: Validators 📜
 
-### Passed String is empty checker.
+### **Passed String is empty checker.**
 
 ```dart
 bool emptyValidator(String value);
@@ -137,7 +137,7 @@ bool emptyValidator(String value);
 
 Example: If " " is passed, then it will return false.
 
-### Passed list of Strings is empty checker.
+### **Passed list of Strings is empty checker.**
 
 ```dart
 bool  multipleEmptyValidator(List<String> values);
@@ -147,7 +147,7 @@ Example: If ["test1", "test2", " "] is passed, then it will return false;
 
 ## Widgets: Sizing 📜
 
-### Mobile, Tablet, and Desktop view builder.
+### **Mobile, Tablet, and Desktop view builder.**
 
 ```dart
 ResponsiveView(
@@ -160,7 +160,7 @@ ResponsiveView(
 Example: Builds out 3 different views based on screen width breakpoints.
 Breakpoint values can be customized.
 
-### SizedBox same height as bottom safe area.
+### **SizedBox same height as bottom safe area.**
 
 ```dart
 SimulatedBottomSafeArea(
