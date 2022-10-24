@@ -4,9 +4,23 @@
 -> Create a pull request [here](https://github.com/mattrltrent/core_utils/pulls).
 -> Contact me via email [here](mailto:me@matthewtrent.me).
 
+## Popular Utils 🔥
+
+- Responsive widget that rebuilds for mobile, tablet, and desktop views.
+  - `ResponsiveView(mobile: YOUR_WIDGET, tablet: YOUR_WIDGET, desktop: YOUR_WIDGET)`
+- Shorthands for `MediaQuery.of(context).size.HEIGHT/WIDTH * SOME_FRACTION`
+  - `heightFrac(context, SOME_FRACTION)`
+  - `widthFrac(context, SOME_FRACTION)`
+- Number formatting.
+  - `largeNumberFormatter(int number)` -> Example: 1812212 to "1.8m"
+  - `numberPostfix(int number)` -> Example: 4 to "th", or 3 to "rd"
+- **And much more, just scroll down for the list of functions/widgets!**
+
+## Example Gif 📸
+
 <img src="https://github.com/mattrltrent/core_utils/blob/main/resources/example.gif?raw=true" style="display: inline"/>
 
-## Functions: Numbers
+## Functions: Numbers 📜
 
 ### Checks if the integer passed is plural.
 
@@ -37,7 +51,7 @@ String numberPostfix(int number);
 
 Example: 4 -> "4th"
 
-## Functions: Sizing
+## Functions: Sizing 📜
 
 ### Height fraction of screen, up to a set point.
 
@@ -94,7 +108,7 @@ Example: If number is the screen width and limit is 200, then this will
 return the screen width until limit is reached, then it will just
 return 200.
 
-## Functions: Types
+## Functions: Types 📜
 
 ### Checks if value is null.
 
@@ -113,7 +127,7 @@ bool  notNull(dynamic value);
 
 Example: If "14" is passed, this will return true.
 
-## Functions: Validators
+## Functions: Validators 📜
 
 ### Passed String is empty checker.
 
@@ -131,7 +145,7 @@ bool  multipleEmptyValidator(List<String> values);
 
 Example: If ["test1", "test2", " "] is passed, then it will return false;
 
-## Widgets: Sizing
+## Widgets: Sizing 📜
 
 ### Mobile, Tablet, and Desktop view builder.
 
@@ -160,7 +174,7 @@ them to be scrolled without being wrapped with a SafeArea, but
 don't want the last list item to be obscured by it. Usually, placed at
 the end of a long list of widgets.
 
-## Additional Info
+## Additional Info 📣
 
 - The package is always open to improvements, suggestions, and additions!
 

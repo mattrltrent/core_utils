@@ -35,11 +35,14 @@ class HomeScreen extends StatelessWidget {
             children: [
               const Text("Mobile view", style: TextStyle(fontSize: 40)),
               const SizedBox(height: 30),
-              Text("18210912 formated = ${largeNumberFormatter(18210912)}", style: const TextStyle(fontSize: 40)),
+              Text("18210912 formated = ${largeNumberFormatter(18210912)}",
+                  style: const TextStyle(fontSize: 40)),
               const SizedBox(height: 30),
-              Text("is 14 plural? = ${isPlural(14)}", style: const TextStyle(fontSize: 40)),
+              Text("is 14 plural? = ${isPlural(14)}",
+                  style: const TextStyle(fontSize: 40)),
               const SizedBox(height: 30),
-              Text("5 with number postfix = 5${numberPostfix(5)}", style: const TextStyle(fontSize: 40))
+              Text("5 with number postfix = 5${numberPostfix(5)}",
+                  style: const TextStyle(fontSize: 40))
             ],
           ),
         ),
@@ -61,7 +64,8 @@ class HomeScreen extends StatelessWidget {
               children: const [
                 Text("Desktop view", style: TextStyle(fontSize: 40)),
                 SizedBox(height: 30),
-                Text("Red rectagle height: heightFrac(context, 1/2))", style: TextStyle(fontSize: 40)),
+                Text("Red rectagle height: heightFrac(context, 1/2))",
+                    style: TextStyle(fontSize: 40)),
               ],
             ),
           ),
