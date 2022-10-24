@@ -1,3 +1,8 @@
+## 1.0.2
+
+- Edited README.md.
+- Added example.
+
 ## 1.0.1
 
 - Edited README.md.

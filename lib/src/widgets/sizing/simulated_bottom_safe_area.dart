@@ -14,6 +14,7 @@ class SimulatedBottomSafeArea extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(height: MediaQuery.of(context).padding.bottom * heightMultiplier);
+    return SizedBox(
+        height: MediaQuery.of(context).padding.bottom * heightMultiplier);
   }
 }

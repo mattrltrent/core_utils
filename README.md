@@ -4,6 +4,8 @@
 -> Create a pull request [here](https://github.com/mattrltrent/core_utils/pulls).
 -> Contact me via email [here](mailto:me@matthewtrent.me).
 
+<img src="https://github.com/mattrltrent/core_utils/blob/main/resources/example.gif?raw=true" style="display: inline"/>
+
 ## Functions: Numbers
 
 ### Checks if the integer passed is plural.
