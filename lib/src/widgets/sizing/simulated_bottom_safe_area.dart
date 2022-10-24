@@ -7,13 +7,13 @@ import 'package:flutter/material.dart';
 /// its children up by 2x the bottom safe area to ensure none of the device's unsafe area cuts them off
 /// at the bottom.
 class SimulatedBottomSafeArea extends StatelessWidget {
-  const SimulatedBottomSafeArea({super.key, this.heightFactor = 2});
+  const SimulatedBottomSafeArea({super.key, this.heightMultiplier = 2});
 
   /// Multiplier for the simulated bottom safe area.
-  final double heightFactor;
+  final double heightMultiplier;
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(height: MediaQuery.of(context).padding.bottom * heightFactor);
+    return SizedBox(height: MediaQuery.of(context).padding.bottom * heightMultiplier);
   }
 }

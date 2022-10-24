@@ -1,10 +1,12 @@
 name: core_utils
-description: A new Flutter package project.
-version: 0.0.1
-homepage:
+description: A package that contains common utilities needed in Flutter projects.
+version: 1.0.1
+homepage: https://matthewtrent.me/
+repository: https://github.com/mattrltrent/core_utils
+issue_tracker: https://github.com/mattrltrent/core_utils/issues
 
 environment:
-  sdk: '>=2.18.2 <3.0.0'
+  sdk: ">=2.18.2 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
