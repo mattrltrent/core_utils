@@ -1,3 +1,7 @@
+## 1.0.4 / 1.0.5
+
+- Adds package analytics to `README.md`.
+
 ## 1.0.3
 
 - Edited README.md.

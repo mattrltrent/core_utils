@@ -1,3 +1,5 @@
+![analytics](https://hidden-coast-90561-45544df95b1b.herokuapp.com/api/v1/analytics/?kind=package-core-utils)
+
 # A package containing helpful utility functions and widgets for Flutter projects.
 
 -> Submit an issue [here](https://github.com/mattrltrent/core_utils/issues).
@@ -179,3 +181,4 @@ the end of a long list of widgets.
 - The package is always open to improvements, suggestions, and additions!
 
 - I'll deal with PRs and issues as soon as I can!
+
